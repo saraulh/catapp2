@@ -1,0 +1,51 @@
+.reverse-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #f8c3d6;
+    border-radius: 20px;
+    width: 350px;
+    background: linear-gradient(135deg, #ffe6f2, #fceff9);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Søt og leken font */
+  }
+  
+  .reverse-input-container h3 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #d47b96;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+  }
+  
+  .reverse-input {
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    border: 2px solid #f8c3d6;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .reverse-input:focus {
+    outline: none;
+    border-color: #ffb6c1;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .reversed-text {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #b45d7e;
+    padding: 10px;
+    background-color: #ffe6f2;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+  }
+  

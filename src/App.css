@@ -1,0 +1,67 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  padding-top: 100px; /* Juster avstand fra toppen for å ta hensyn til menyen */
+}
+
+.nav-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffe6f2;
+  padding: 25px; /* Økt padding for å gjøre menyen høyere */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.nav-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-menu li {
+  margin: 0 25px; /* Øk margin mellom menylenkene */
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #d47b96;
+  font-size: 24px; /* Øk skriftstørrelsen for lenkene */
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu a svg {
+  margin-right: 10px;
+  font-size: 24px; /* Øk ikonstørrelsen */
+}
+
+.nav-menu a:hover {
+  color: #ffb6c1;
+}
+
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Sørger for at innholdet blir sentrert */
+  margin-top: 30px; /* Avstand mellom meny og innhold */
+}
+
+h1 {
+  color: #d47b96;
+  font-size: 32px;
+}
