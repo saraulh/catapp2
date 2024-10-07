@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/app/store.ts","./src/components/catfact.tsx","./src/components/randomcatimage.tsx","./src/components/task1a.tsx","./src/features/catfacts/catfactslice.ts","./src/features/counter/counter.tsx","./src/features/counter/counterslice.ts"],"version":"5.6.2"}
