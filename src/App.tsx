@@ -1,12 +1,12 @@
 import './App.css'
-import React from 'react';
+//import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Task1A from './components/Task1A'
 import CatFact from './components/CatFact'
 import RandomCatImage from './components/RandomCatImage';
 // Import av ikonbibliotek, du kan bruke f.eks. react-icons
 import { FaCat, FaKeyboard, FaHome } from 'react-icons/fa';
-import { Counter } from './features/counter/Counter';
+//import { Counter } from './features/counter/Counter';
 const App = () => {
   return (  
     <Router>

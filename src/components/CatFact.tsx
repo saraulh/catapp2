@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import RandomCatImage from './RandomCatImage';
+//import RandomCatImage from './RandomCatImage';
 import './CatFact.css'
 
 // array av strenger 
