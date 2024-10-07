@@ -6,7 +6,7 @@ import CatFact from './components/CatFact'
 import RandomCatImage from './components/RandomCatImage';
 // Import av ikonbibliotek, du kan bruke f.eks. react-icons
 import { FaCat, FaKeyboard, FaHome } from 'react-icons/fa';
-
+import { Counter } from './features/counter/Counter';
 const App = () => {
   return (  
     <Router>
@@ -40,7 +40,7 @@ const App = () => {
         {/* Innholdet rendres under menyen */}
         <div className="content">
           <Routes>
-            <Route path="/" element={<h1>Welcome to the Cat App! 🐱</h1>} />
+            <Route path="/" element={<><h1>Welcome to the Cat App! 🐱</h1></> } />
             <Route path="/reverse" element={<Task1A />} />
             <Route path="/cat-image" element={<RandomCatImage />} />
             <Route path="/cat-fact" element={<CatFact />} />
